@@ -3,14 +3,10 @@ from product_manager import ProductManager
 
 manager = ProductManager()
 
-product1 = Product("Mouse", 1299, 12)
-product2 = Product("Mixer", 2990, 25)
-product3 = Product("Playstation4", 35000, 5)
+product1 = Product("laptop", 98560, 3)
+product2 = Product("PlayBox", 2700, 22)
+product3 = Product("Trimer", 5500, 10)
 
 manager.add_product(product1)
 manager.add_product(product2)
 manager.add_product(product3)
-
-manager.display_all_products()
-
-manager.total_sum()
